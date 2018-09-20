@@ -6,9 +6,32 @@
 
 ### Use script
 
-* run `git clone git@github.com:achuchulev/tf-null-hw.git` to download repo
-* go to repo directory `cd tf-null-hw/`
-* run `terraform init` to download terraform *null provider plugin*
-* check execution plan with `terraform plan` 
-* apply the plan to create the resources with `terraform apply`
-* use `terraform destroy` to destroy your infrastructure
+* clone this repo
+```
+`git clone git@github.com:achuchulev/tf-null-hw.git`
+```
+
+* change into the new directory created 
+```
+cd tf-null-hw/
+```
+
+* initialize this repo, to download terraform required *plugin*
+```
+terraform init
+```
+
+* check execution plan
+ ```
+ terraform plan
+ ```
+ 
+* apply the plan to create the resources 
+```
+terraform apply
+```
+
+* optionally, destroy your infrastructure
+```
+terraform destroy
+```
