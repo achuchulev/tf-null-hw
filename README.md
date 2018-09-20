@@ -8,7 +8,7 @@
 
 * clone this repo
 ```
-`git clone git@github.com:achuchulev/tf-null-hw.git`
+git clone git@github.com:achuchulev/tf-null-hw.git
 ```
 
 * change into the new directory created 
