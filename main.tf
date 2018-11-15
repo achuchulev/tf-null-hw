@@ -5,6 +5,6 @@ resource "null_resource" "helloWorld" {
 }
 resource "null_resource" "helloWorld1" {
   provisioner "local-exec" {
-    command = "echo Hello parallel world!"
+    command = "echo Hello parallel world 1!"
   }
 }
