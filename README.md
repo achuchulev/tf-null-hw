@@ -11,17 +11,23 @@
 
 * clone this repo
 ```
-git clone git@github.com:achuchulev/tf-null-hw.git
+git clone git@github.com:achuchulev/tf-null-count.git
 ```
 
 * change into the new directory created 
 ```
-cd tf-null-hw/
+cd tf-null-count/
 ```
 
 * initialize this repo, to download terraform required *plugin*
 ```
 terraform init
+```
+
+* create `terraform.tfvars` file and specify the number of resources you want to create assigning value to `multiple` variable
+
+```
+multiple = 3
 ```
 
 * check execution plan
