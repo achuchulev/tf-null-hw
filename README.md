@@ -1,4 +1,4 @@
-# Sample repo that shows usage of terraform null provider
+# Sample repo that shows usage of terraform null provider with count parameter
 
 ### Prerequisit
 
