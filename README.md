@@ -24,7 +24,7 @@ cd tf-null-count/
 terraform init
 ```
 
-* create `terraform.tfvars` file and specify the number of resources you want to create assigning value to `multiple` variable. If .tfvars not created `terraform apply` will create two resources that have been defined by `default = 2`
+* create `terraform.tfvars` file and specify the number of resources you want to create assigning value to `multiple` variable. If `.tfvars` is missing `terraform apply` will create two resources that is the default value of `multiple` var
 
 ```
 multiple = 3
