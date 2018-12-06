@@ -1,6 +1,6 @@
 resource "null_resource" "MultiHelloWorld" {
+  count = 2
   provisioner "local-exec" {
-    count = 2
     command = "echo Hello world ${count.index} !"
   }
 }
