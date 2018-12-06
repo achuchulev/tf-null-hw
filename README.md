@@ -1,4 +1,4 @@
-# Sample repo that shows usage of terraform null provider with count parameter
+# Terraform null provider with count parameter
 
 #### The purpose of this repo os to show how to use Terraform null provider with count parameter to create multiple resources based on count parameter value
 
