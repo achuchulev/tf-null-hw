@@ -4,7 +4,7 @@
 
 ### Prerequisites
 
-* terraform
+* terraform (>= 0.12)
 * git
 
 ### Use script
