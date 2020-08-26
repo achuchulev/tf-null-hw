@@ -8,6 +8,6 @@ resource "null_resource" "MultiHelloWorld" {
 
 resource "null_resource" "HelloWorld" {
   provisioner "local-exec" {
-    command = "echo Value of multiple variable is: ${count.index}"
+    command = "echo Value of the 'multiple' variable is: ${count.index}"
   }
 }
