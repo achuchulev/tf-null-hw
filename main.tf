@@ -1,6 +1,5 @@
 resource "null_resource" "MultiHelloWorld" {
-  count = var.multiple
   provisioner "local-exec" {
-    command = "echo Hello world ${count.index + 1}!"
+    command = "while true ; do date; sleep 1m; done"
   }
 }
